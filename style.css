@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+        --naraja: #ff5722;
+    }
+body{
+    font-size: 16px;
+    line-height: 24px;
+    /* color: #333; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+    /* border: 1px red solid; */
+}
+
+.margen{
+    padding: 15px;
+}
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+.contenido_principal {
+    position: relative;
+    width: 300px; 
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.contenido_principal img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contenido_categoria {
+    position: absolute;
+    bottom: 112px; 
+    left: 0; 
+    background-color: var(--naraja);
+    color: white;
+    padding: 8px 12px;
+    font-size: 10px;
+    height: 10px;  
+    /* border: red 1px solid;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;     
+
+}
+
+.contenido_fecha {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--naraja);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    line-height: 1;
+}
+
+.contenido_texto {
+    padding: 15px;
+}
+
+.contenido_texto h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.contenido_texto a {
+    text-decoration: none;
+    color: var(--naraja);
+    display: flex;
+    justify-content: end;
+}
+
+.btn{
+display: flex;
+justify-content: flex-end;
+/* color: #ff5722; */
+}
+.btn a{
+    color: var(--naraja);
+    text-decoration: none;
+}
+
+footer h2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--naraja);
+    justify-content: center;
+    color: white;
+}
